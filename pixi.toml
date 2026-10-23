@@ -8,14 +8,15 @@ version = "0.1.4"
 [tasks]
 
 [dependencies]
-python = ">=3.14.7,<3.15"
-nodejs = ">=26.8.1,<26.9"
-vim = ">=9.2.785,<10"
+python = ">=3.14.9,<3.15"
+nodejs = ">=26.12.1,<26.13"
+vim = ">=9.2.1054,<10"
 texinfo = ">=7.2,<8"
 tldr = ">=3.4.4,<4"
 qtsass = ">=0.4.0,<0.5"
-nano = ">=9.2,<10"
+nano = ">=9.3,<10"
 emacs = ">=31.1,<32"
+pnpm = ">=12.4.1,<13"
 
 [pypi-dependencies]
 npm = ">=0.1.1, <0.2"
