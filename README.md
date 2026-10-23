@@ -15,7 +15,7 @@ HTML5 Up [https://html5up.net](https://html5up.net)
 To develop a custom homepage tailored for you:
 ```bash
 git clone https://github.com/rxc1441/rxc1441.github.io.git
-cd rcghpge.github.io
+cd rxc1441.github.io
 
 # Activate Pixi virtual environment (Installation may be needed. See Pixi docs)
 pixi shell
