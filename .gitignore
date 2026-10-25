@@ -1,4 +1,5 @@
 # Exclude
+*.prettierignore~
 *.bak
 *.pixi/*
 *.js~

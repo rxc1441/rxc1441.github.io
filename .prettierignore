@@ -1,0 +1,8 @@
+node_modules
+.pnpm-store
+.angular
+dist
+coverage
+*.min.css
+*.min.js
+pnpm-lock.yaml
