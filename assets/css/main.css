@@ -1258,7 +1258,7 @@ input, select, textarea {
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		max-width: 100%;
+   		max-width: 100%;
 		text-align: center;
 	}
 
@@ -1448,7 +1448,7 @@ input, select, textarea {
 
 				#header .logo .icon:before {
 					font-size: 1.75rem;
-v				}
+				}
 
 			#header .content .inner {
 				padding: 2.5rem 1rem;
@@ -1624,10 +1624,10 @@ v				}
 		}
 
 /* Resume Download Button */
-   # lightsaber-link 
+   # lightsaber-link
        .lightsaber-link {
-         color: #ffffff; /* White text color */
-         text-decoration: none; /* Remove default underline */
+         color: #ffffff;
+         text-decoration:;
          position: relative;
          transition: color 0.5s ease;
        }
@@ -1636,25 +1636,25 @@ v				}
          content: '';
          position: absolute;
          left: 0;
-         bottom: -2px; /* Position glow just below the text */
+         bottom: -2px;
          width: 100%;
-         height: 3px; /* Thickness of the glow */
-         background-color: #00ff00; /* Initial glow color (green) */
-         box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00; /* Glow effect */
-         opacity: 0; /* Initially hidden */
+         height: 3px;
+         background-color: #00a9e0;
+         box-shadow: 0 0 10px #00a9e0, 0 0 20px #00a9e0, 0 0 30px #00a9e0;
+         opacity: 0;
          transition: opacity 1.5s ease, background-color 1.5s ease, box-shadow 1.5s ease;
-        }
+  }
 
         .lightsaber-link:hover::after {
-          opacity: 1; /* Show glow on hover */
+          opacity: 1;
         }
 
         .lightsaber-link:hover {
-          color: #00ff00; /* Change text color to match glow on hover */
+          color: #00a9e0;
         }
 
 /* Courses Section */
-   # course-list 
+   # course-list
         .course-list {
           list-style-type: disc; /* Default bullet points */
           margin-left: 20px; /* Indent the list */
@@ -1678,7 +1678,7 @@ v				}
 		padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px)); /* test/comment out/delete */
 		text-align: center;
 	}
-    
+
 		#footer .copyright {
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;
@@ -1715,7 +1715,7 @@ v				}
 }
 
 #header .content .inner {
-    opacity: 0;                                                             
+    opacity: 0;
     transform: translateY(40px) scale(0.95);
     animation: introFadeIn 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s forwards;
 }
