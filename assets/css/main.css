@@ -1201,6 +1201,8 @@ input, select, textarea {
 		justify-content: space-between;
 		position: relative;
 		min-height: 100vh;
+		min-height: 100svh;
+		min-height: 100dvh;
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
@@ -1847,5 +1849,4 @@ input, select, textarea {
     flex-shrink: 0 !important;
   }
 }
-
 
