@@ -928,6 +928,33 @@ input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
+	ul.icons.contact-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		justify-content: center;
+		padding-top: 1rem;
+	}
+
+		ul.icons.contact-links li {
+			display: flex;
+			padding: 0;
+		}
+
+			ul.icons.contact-links li a {
+				align-items: center;
+				display: flex;
+				flex: 0 0 6.75rem;
+				height: 6.75rem;
+				justify-content: center;
+				line-height: 1;
+				width: 6.75rem;
+			}
+
+				ul.icons.contact-links li a:before {
+					line-height: 1;
+				}
+
 /* Table */
 
 	.table-wrapper {
@@ -1849,4 +1876,3 @@ input, select, textarea {
     flex-shrink: 0 !important;
   }
 }
-
