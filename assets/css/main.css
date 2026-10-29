@@ -895,63 +895,44 @@ input, select, textarea {
 
 /* Icons */
 
-	ul.icons {
+	.contact-links {
 		cursor: default;
-		list-style: none;
-		padding-left: 0;
-	}
-
-		ul.icons li {
-			display: inline-block;
-			padding: 0 0.75em 0 0;
-		}
-
-			ul.icons li:last-child {
-				padding-right: 0;
-			}
-
-			ul.icons li a {
-				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
-				display: inline-block;
-				height: 2.25rem;
-				line-height: 2.25rem;
-				text-align: center;
-				width: 2.25rem;
-			}
-
-				ul.icons li a:hover {
-					background-color: rgba(255, 255, 255, 0.075);
-				}
-
-				ul.icons li a:active {
-					background-color: rgba(255, 255, 255, 0.175);
-				}
-
-	ul.icons.contact-links {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 1rem;
 		justify-content: center;
+		list-style: none;
+		padding-left: 0;
 		padding-top: 1rem;
 	}
 
-		ul.icons.contact-links li {
+		.contact-links li {
 			display: flex;
 			padding: 0;
 		}
 
-			ul.icons.contact-links li a {
+			.contact-links li a {
 				align-items: center;
+				border-radius: 100%;
+				box-shadow: inset 0 0 0 1px #ffffff;
 				display: flex;
 				flex: 0 0 6.75rem;
 				height: 6.75rem;
 				justify-content: center;
 				line-height: 1;
+				text-align: center;
 				width: 6.75rem;
 			}
 
-				ul.icons.contact-links li a:before {
+				.contact-links li a:hover {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+				.contact-links li a:active {
+					background-color: rgba(255, 255, 255, 0.175);
+				}
+
+				.contact-links li a:before {
 					line-height: 1;
 				}
 
